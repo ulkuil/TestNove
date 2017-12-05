@@ -17,7 +17,7 @@
 		case 5: xmm5 = _mm_load_si128((__m128i*)(s) + 4); \
 		case 4: xmm4 = _mm_load_si128((__m128i*)(s) + 3); \
 		case 3: xmm3 = _mm_load_si128((__m128i*)(s) + 2); \
-		case 2: xmm3 = _mm_load_si128((__m128i*)(s) + 1); \
+		case 2: xmm2 = _mm_load_si128((__m128i*)(s) + 1); \
 		case 1: xmm1 = _mm_load_si128((__m128i*)(s)); \
 		case 0: break; \
 	}
